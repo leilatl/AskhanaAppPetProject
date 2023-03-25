@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE49814629CF900000B2675A /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE49814529CF900000B2675A /* RegisterViewModel.swift */; };
+		CE49814929CF922700B2675A /* TabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE49814829CF922700B2675A /* TabController.swift */; };
 		CEC1BC2229CF651A00C4994F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC1BC2129CF651A00C4994F /* AppDelegate.swift */; };
 		CEC1BC2429CF651A00C4994F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC1BC2329CF651A00C4994F /* SceneDelegate.swift */; };
 		CEC1BC2929CF651A00C4994F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC1BC2729CF651A00C4994F /* Main.storyboard */; };
@@ -25,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE49814529CF900000B2675A /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		CE49814829CF922700B2675A /* TabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabController.swift; sourceTree = "<group>"; };
 		CEC1BC1E29CF651A00C4994F /* AskhanaAppPetProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AskhanaAppPetProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC1BC2129CF651A00C4994F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEC1BC2329CF651A00C4994F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +59,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE49814729CF921100B2675A /* TabScene */ = {
+			isa = PBXGroup;
+			children = (
+				CE49814829CF922700B2675A /* TabController.swift */,
+			);
+			path = TabScene;
+			sourceTree = "<group>";
+		};
+		CE49814A29CF997E00B2675A /* MenuScene */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MenuScene;
+			sourceTree = "<group>";
+		};
+		CE49814B29CF998600B2675A /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
 		CEC1BC1529CF651A00C4994F = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +100,9 @@
 		CEC1BC2029CF651A00C4994F /* AskhanaAppPetProject */ = {
 			isa = PBXGroup;
 			children = (
+				CE49814B29CF998600B2675A /* Scenes */,
+				CE49814A29CF997E00B2675A /* MenuScene */,
+				CE49814729CF921100B2675A /* TabScene */,
 				CEC1BC3929CF658700C4994F /* UIExtensions */,
 				CEC1BC3829CF657D00C4994F /* Delegates */,
 				CEC1BC3729CF657100C4994F /* WelcomeScene */,
@@ -91,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				CEC1BC3A29CF659C00C4994F /* RegisterViewController.swift */,
+				CE49814529CF900000B2675A /* RegisterViewModel.swift */,
 			);
 			path = RegisterScene;
 			sourceTree = "<group>";
@@ -212,7 +242,9 @@
 				CEC1BC4B29CF667C00C4994F /* BasicLabel.swift in Sources */,
 				CEC1BC3D29CF65C200C4994F /* LogInViewController.swift in Sources */,
 				CEC1BC3F29CF65DB00C4994F /* LogInViewModel.swift in Sources */,
+				CE49814929CF922700B2675A /* TabController.swift in Sources */,
 				CEC1BC4929CF666B00C4994F /* BasicButton.swift in Sources */,
+				CE49814629CF900000B2675A /* RegisterViewModel.swift in Sources */,
 				CEC1BC3B29CF659C00C4994F /* RegisterViewController.swift in Sources */,
 				CEC1BC4729CF665800C4994F /* UIElementsBuilder.swift in Sources */,
 				CEC1BC4D29CF668C00C4994F /* BasicTextField.swift in Sources */,

@@ -16,6 +16,8 @@ class LogInViewModel {
 	}
 	
 	func logInButtonTapped() {
-		print("edit logInButtonTapped() in LogInViewModel")
+		let tabVC = TabViewController()
+		tabVC.modalPresentationStyle = .fullScreen
+		viewController?.present(tabVC, animated: true, completion: nil)
 	}
 }
