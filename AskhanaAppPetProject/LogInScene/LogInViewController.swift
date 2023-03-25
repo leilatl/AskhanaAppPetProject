@@ -74,20 +74,23 @@ class LogInViewController: UIViewController {
 	
 	private func setUpCenterView() -> UIStackView {
 		let emailTextView = BasicTextField(placeholder: "Email")
-		
+
 		let passwordTextView = BasicTextField(placeholder: "Password")
-		
+
 		let loginBtn = BasicButton(title: "Log In")
-		
+
 		let stackView = UIStackView(arrangedSubviews: [emailTextView, passwordTextView, loginBtn])
 		stackView.axis = .vertical
 		stackView.alignment = .center
 		stackView.distribution = .equalCentering
 		stackView.setCustomSpacing(20, after: emailTextView)
-		
+
 		loginBtn.addTarget(viewModel, action: #selector(loginButtonTapped), for: .touchUpInside)
+		
 		return stackView
 	}
+	
+	
 	
 	private func setUpBottomView() -> UIStackView {
 		let registrationLabel = BasicLabel(text: "If you are a new user", color: UIColor(named: "Yellow") ?? .yellow)
