@@ -9,21 +9,39 @@
 /* Begin PBXBuildFile section */
 		CEC1BC2229CF651A00C4994F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC1BC2129CF651A00C4994F /* AppDelegate.swift */; };
 		CEC1BC2429CF651A00C4994F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC1BC2329CF651A00C4994F /* SceneDelegate.swift */; };
-		CEC1BC2629CF651A00C4994F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC1BC2529CF651A00C4994F /* ViewController.swift */; };
 		CEC1BC2929CF651A00C4994F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC1BC2729CF651A00C4994F /* Main.storyboard */; };
 		CEC1BC2B29CF651C00C4994F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC1BC2A29CF651C00C4994F /* Assets.xcassets */; };
 		CEC1BC2E29CF651C00C4994F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC1BC2C29CF651C00C4994F /* LaunchScreen.storyboard */; };
+		CEC1BC3B29CF659C00C4994F /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC1BC3A29CF659C00C4994F /* RegisterViewController.swift */; };
+		CEC1BC3D29CF65C200C4994F /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC1BC3C29CF65C200C4994F /* LogInViewController.swift */; };
+		CEC1BC3F29CF65DB00C4994F /* LogInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC1BC3E29CF65DB00C4994F /* LogInViewModel.swift */; };
+		CEC1BC4129CF65F000C4994F /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC1BC4029CF65F000C4994F /* WelcomeViewController.swift */; };
+		CEC1BC4329CF660700C4994F /* WelcomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC1BC4229CF660700C4994F /* WelcomeViewModel.swift */; };
+		CEC1BC4529CF664500C4994F /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC1BC4429CF664500C4994F /* UIView.swift */; };
+		CEC1BC4729CF665800C4994F /* UIElementsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC1BC4629CF665800C4994F /* UIElementsBuilder.swift */; };
+		CEC1BC4929CF666B00C4994F /* BasicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC1BC4829CF666B00C4994F /* BasicButton.swift */; };
+		CEC1BC4B29CF667C00C4994F /* BasicLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC1BC4A29CF667C00C4994F /* BasicLabel.swift */; };
+		CEC1BC4D29CF668C00C4994F /* BasicTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC1BC4C29CF668C00C4994F /* BasicTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CEC1BC1E29CF651A00C4994F /* AskhanaAppPetProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AskhanaAppPetProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC1BC2129CF651A00C4994F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEC1BC2329CF651A00C4994F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CEC1BC2529CF651A00C4994F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CEC1BC2829CF651A00C4994F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEC1BC2A29CF651C00C4994F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEC1BC2D29CF651C00C4994F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEC1BC2F29CF651C00C4994F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC1BC3A29CF659C00C4994F /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		CEC1BC3C29CF65C200C4994F /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		CEC1BC3E29CF65DB00C4994F /* LogInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewModel.swift; sourceTree = "<group>"; };
+		CEC1BC4029CF65F000C4994F /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		CEC1BC4229CF660700C4994F /* WelcomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewModel.swift; sourceTree = "<group>"; };
+		CEC1BC4429CF664500C4994F /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		CEC1BC4629CF665800C4994F /* UIElementsBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIElementsBuilder.swift; sourceTree = "<group>"; };
+		CEC1BC4829CF666B00C4994F /* BasicButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicButton.swift; sourceTree = "<group>"; };
+		CEC1BC4A29CF667C00C4994F /* BasicLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicLabel.swift; sourceTree = "<group>"; };
+		CEC1BC4C29CF668C00C4994F /* BasicTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,64 @@
 		CEC1BC2029CF651A00C4994F /* AskhanaAppPetProject */ = {
 			isa = PBXGroup;
 			children = (
-				CEC1BC2129CF651A00C4994F /* AppDelegate.swift */,
-				CEC1BC2329CF651A00C4994F /* SceneDelegate.swift */,
-				CEC1BC2529CF651A00C4994F /* ViewController.swift */,
+				CEC1BC3929CF658700C4994F /* UIExtensions */,
+				CEC1BC3829CF657D00C4994F /* Delegates */,
+				CEC1BC3729CF657100C4994F /* WelcomeScene */,
+				CEC1BC3629CF656800C4994F /* LogInScene */,
+				CEC1BC3529CF655E00C4994F /* RegisterScene */,
 				CEC1BC2729CF651A00C4994F /* Main.storyboard */,
 				CEC1BC2A29CF651C00C4994F /* Assets.xcassets */,
 				CEC1BC2C29CF651C00C4994F /* LaunchScreen.storyboard */,
 				CEC1BC2F29CF651C00C4994F /* Info.plist */,
 			);
 			path = AskhanaAppPetProject;
+			sourceTree = "<group>";
+		};
+		CEC1BC3529CF655E00C4994F /* RegisterScene */ = {
+			isa = PBXGroup;
+			children = (
+				CEC1BC3A29CF659C00C4994F /* RegisterViewController.swift */,
+			);
+			path = RegisterScene;
+			sourceTree = "<group>";
+		};
+		CEC1BC3629CF656800C4994F /* LogInScene */ = {
+			isa = PBXGroup;
+			children = (
+				CEC1BC3C29CF65C200C4994F /* LogInViewController.swift */,
+				CEC1BC3E29CF65DB00C4994F /* LogInViewModel.swift */,
+			);
+			path = LogInScene;
+			sourceTree = "<group>";
+		};
+		CEC1BC3729CF657100C4994F /* WelcomeScene */ = {
+			isa = PBXGroup;
+			children = (
+				CEC1BC4029CF65F000C4994F /* WelcomeViewController.swift */,
+				CEC1BC4229CF660700C4994F /* WelcomeViewModel.swift */,
+			);
+			path = WelcomeScene;
+			sourceTree = "<group>";
+		};
+		CEC1BC3829CF657D00C4994F /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				CEC1BC2129CF651A00C4994F /* AppDelegate.swift */,
+				CEC1BC2329CF651A00C4994F /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		CEC1BC3929CF658700C4994F /* UIExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				CEC1BC4429CF664500C4994F /* UIView.swift */,
+				CEC1BC4629CF665800C4994F /* UIElementsBuilder.swift */,
+				CEC1BC4829CF666B00C4994F /* BasicButton.swift */,
+				CEC1BC4A29CF667C00C4994F /* BasicLabel.swift */,
+				CEC1BC4C29CF668C00C4994F /* BasicTextField.swift */,
+			);
+			path = UIExtensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +205,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEC1BC2629CF651A00C4994F /* ViewController.swift in Sources */,
+				CEC1BC4529CF664500C4994F /* UIView.swift in Sources */,
+				CEC1BC4329CF660700C4994F /* WelcomeViewModel.swift in Sources */,
 				CEC1BC2229CF651A00C4994F /* AppDelegate.swift in Sources */,
 				CEC1BC2429CF651A00C4994F /* SceneDelegate.swift in Sources */,
+				CEC1BC4B29CF667C00C4994F /* BasicLabel.swift in Sources */,
+				CEC1BC3D29CF65C200C4994F /* LogInViewController.swift in Sources */,
+				CEC1BC3F29CF65DB00C4994F /* LogInViewModel.swift in Sources */,
+				CEC1BC4929CF666B00C4994F /* BasicButton.swift in Sources */,
+				CEC1BC3B29CF659C00C4994F /* RegisterViewController.swift in Sources */,
+				CEC1BC4729CF665800C4994F /* UIElementsBuilder.swift in Sources */,
+				CEC1BC4D29CF668C00C4994F /* BasicTextField.swift in Sources */,
+				CEC1BC4129CF65F000C4994F /* WelcomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

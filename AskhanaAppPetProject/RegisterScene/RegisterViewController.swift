@@ -1,19 +1,16 @@
 //
-//  ViewController.swift
+//  RegisterViewController.swift
 //  AskhanaAppPetProject
 //
 //  Created by Dmitry Serebrov on 25.03.2023.
 //
 
+import Foundation
 import UIKit
 
-class ViewController: UIViewController {
-
+class RegisterViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		// Do any additional setup after loading the view.
+		view.backgroundColor = .yellow
 	}
-
-
 }
-
