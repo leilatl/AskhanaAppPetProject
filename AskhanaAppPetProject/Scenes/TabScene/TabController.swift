@@ -26,29 +26,21 @@ class MyTabBarController: UITabBarController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
-		let firstVC = FirstViewController()
+		let firstVC = MenuViewController()
 		let secondVC = SecondViewController()
 		let thirdVC = ThirdViewController()
 		
-		firstVC.tabBarItem = UITabBarItem(title: "First", image: UIImage(systemName: "house"), selectedImage: nil)
+		firstVC.tabBarItem = UITabBarItem(title: "", image: UIImage(systemName: "house"), selectedImage: nil)
 		
-		secondVC.tabBarItem = UITabBarItem(title: "Second", image: UIImage(systemName: "archivebox"), selectedImage: nil)
+		secondVC.tabBarItem = UITabBarItem(title: "", image: UIImage(systemName: "archivebox"), selectedImage: nil)
 		
-		thirdVC.tabBarItem = UITabBarItem(title: "Third", image: UIImage(systemName: "person.crop.circle"), selectedImage: nil)
+		thirdVC.tabBarItem = UITabBarItem(title: "", image: UIImage(systemName: "person.crop.circle"), selectedImage: nil)
 		
 		UITabBar.appearance().tintColor = UIColor(named: "Green")
 
 		
 		
 		self.viewControllers = [firstVC, secondVC, thirdVC]
-	}
-}
-
-class FirstViewController: UIViewController {
-	override func viewDidLoad() {
-		super.viewDidLoad()
-		
-		view.backgroundColor = .white
 	}
 }
 

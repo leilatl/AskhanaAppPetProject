@@ -10,12 +10,17 @@ import UIKit
 
 class BasicLabel: UILabel {
 	
-	init(text: String, color: UIColor = .black) {
+	init(text: String,
+		 color: UIColor = .black,
+		 size: CGFloat = 15,
+		 weight: UIFont.Weight = .medium) {
 		super.init(frame: .zero)
 		self.text = text
 		textColor = color
 		textAlignment = .center
 		backgroundColor = .clear
+		font = UIFont.systemFont(ofSize: size, weight: weight)
+		numberOfLines = 0
 	}
 	
 	required init?(coder: NSCoder) {
